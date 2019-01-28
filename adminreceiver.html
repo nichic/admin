@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>admin page for receiver</title>
+       <meta charset="UTF-8">
+    <title>Admin Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/Donor.css">
+</head>
+<body>
+<header class = "header">
+        <div class = "container col-md-8 col-md-push-2">
+            <div class = "navbar-header">
+                <button type="button" class ="navbar-toggle" data-toggle ="collapse" data-target ="#micon">
+                    <span class ="icon-bar"></span>
+                    <span class ="icon-bar"></span>
+                    <span class ="icon-bar"></span>
+                </button>
+               <a href = "../static/Home.html"><img class="navbar-brand logo" src="../static/images/logo.jpg"></a>
+            </div>
+            <div class ="collapse navbar-collapse" id ="micon">
+            <ul class = "nav navbar-nav navbar-right">
+                <li><a href="#" class = "link" id ="link">Home</a></li>
+                <li class = "dropdown">
+                    <a href="#" class = "dropdown-toggle link" id ="link" data-toggle="dropdown">About</a>
+                    <ul class ="dropdown-menu">
+                        <li><a href = "#" class = "meh">Our Donors</a></li>
+                        <li><a href = "#" class = "meh">Our Receivers</a></li>
+                        <li><a href = "#" class = "meh">Our Transporters</a></li>
+                        <li><a href = "#" class = "meh">Hall Of Fame</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class = "link" id ="link">FAQ</a></li>
+                <li><a href="#" class = "link" id ="link" data-toggle ="modal" data-target = "#mehmehbox">Sign Out</a></li>
+                <!--<li><a href="#">Register your location!</a></li>-->
+            </ul>
+            </div>
+        </div>
+    </header>
+     <div class ="modal fade" role ="dialog" id ="mehmehbox">
+	    <div class="modal-dialog">
+		    <div class="modal-content">
+		    	<div class="modal-header">
+		    		<button type = "button" class = "close" data-dismiss = "modal">X</button>
+		    	</div>
+ 			    <div class = "modal-body">
+				    <div class ="left-box">
+			            <h1 class = "poop">Sign Out</h1>
+                            <input type = "text" name ="email" placeholder ="Email"/>
+                            <input type = "password" name ="password" placeholder ="Password"/>
+                            <input type = "text" name ="name" placeholder ="Company Name"/>
+                            <input type = "text" name ="number" placeholder ="Contact No."/>
+                                <h4 class = "poop">Desired Role:</h4>
+                                <select>
+                                    <option value="Donor">Donor</option>
+                                    <option value="Receiver">Receiver</option>
+                                    <option value="Transporter">Transporter</option>
+                                </select>
+                                <br><br>
+                             <input type = "submit" name = "signout-button" value = "Sign Out"/>
+		            </div>
+				    <div class = "right-box">
+			            <h1 class = "Line">Login</h1>
+                            <input type = "text" name ="email" placeholder ="Email"/>
+                            <input type = "password" name ="password" placeholder ="Password"/>
+                             <input type = "submit" name = "login-button" value = "Login"/>
+                        <p class = "Line">Forget Password? Click <a href = "#" class = "clicky">Here!</a></p>
+			        </div>
+                    <div class="or">OR</div>
+                </div>
+ 		    </div>
+	    </div>
+    </div>
+
+</div>
+</div>
+</div>
+</br>
+
+<div class="container-fluid">
+
+</div>
+
+<fieldset class="define">
+
+        <h1 class="big"><u>RECEIVER PAGE:</u></h1>
+
+    <table style="width:100%" border=' 1px solid black'
+    border-collapse = 'collapse'>
+  <tr>
+      <th>No.</th>
+    <th>Receiver</th>
+    <th>Items</th>
+    <th>Submitted Date</th>
+    <th>Deliver Date</th>
+  </tr>
+  <tr>
+      <td>1.</td>
+    <td>Thomas Lim</td>
+      <td>Fruits, Vegetables</td>
+    <td>4/5/2018</td>
+    <td>4/6/2018, 2pm</td>
+
+  </tr>
+  <tr>
+
+      <td>2.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+       <td></td>
+  </tr>
+  <tr>
+
+      <td>3.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+       <td></td>
+  </tr>
+
+    <tr>
+
+      <td>4.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+         <td></td>
+  </tr>
+
+     <tr>
+
+      <td>5.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+         <td></td>
+  </tr>
+</table>
+
+    </fieldset>
+</body>
+</html>

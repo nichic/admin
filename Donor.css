@@ -1,0 +1,391 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+Body {
+
+
+   background-image: url("images/1bg.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	margin:0;
+    padding:0;
+    background-size: 100% 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+    overflow: auto;
+
+
+}
+
+
+.container {
+    margin-top:8px;
+    border-bottom: 1px solid black;
+}
+.icon-bar {
+    background: darkorange;
+}
+.navbar-toggle .icon-bar{
+    width: 35px;
+    height: 5px;
+}
+.navbar-brand {
+	padding: 0;
+	margin-bottom: 7px;
+	height: 60px;
+}
+.dropdown-menu {
+	background-color: rgba( 255,255,255, 0.8);
+}
+.link {
+    margin-left: 35px;
+	font-size: 23px;
+    color: black;
+}
+#link:hover {
+	background-color: rgba( 255,255,255, 0.8) !important;
+}
+.meh {
+	text-align: center;
+	font-size: 18px;
+}
+ .modal-open .supreme-container{
+    -webkit-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+#mehmehbox {
+	position: absolute;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6)
+}
+.modal-content {
+    height: 500px;
+	width: 601px;
+}
+.modal body {
+    position:absolute;
+    box-sizing: border-box;
+	padding: 40px;
+}
+.left-box {
+	background-image: url("images/Lsky.jpeg");
+    position: absolute;
+	top:0;
+	left:0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 450px;
+}
+.poop {
+	color:black;
+}
+h1 {
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	font-size: 28px;
+}
+.clicky {
+    font-size: 18px;
+}
+ .clicky:hover {
+    text-decoration: none;
+    color: #f44336;
+}
+ input[type="text"], input[type="password"], input[type="number"] {
+	display:block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 4px;
+	width: 220px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+ input[type="submit"] {
+	margin-bottom: 28px;
+	width: 120px;
+	height: 32px;
+	background: #f44336;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+ input[type="submit"]:hover, input[type="submit"]:focus {
+	background: #ff5722;
+	transition: 0.2s ease;
+}
+.Line {
+	color: White;
+}
+.right-box {
+	background-image: url("images/Dsky.jpeg");
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 450px;
+}
+.or {
+	position:absolute;
+	top: 180px;
+	left: 280px;
+	width: 40px;
+	height: 40px;
+	background: orangered;
+    color: white;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+	line-height: 40px;
+	text-align: center;
+}
+
+div.heading {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+#add {
+    display: none;
+}
+
+
+.h { font-size: 50px;
+    margin-top: 200px;
+    text-align: center;}
+
+h1.big { font-size: 45px;
+        text-align: center;}
+
+
+p { font-size: 20px;
+    text-align: center;}
+
+fieldset.define {
+	padding: 30px;
+    margin: 70px;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-style: solid;
+}
+
+.container-fluid{
+    padding: 20px;
+}
+
+
+h4 {
+    text-align: center;
+
+}
+
+
+
+Legend {
+    font-size:25px;
+
+}
+
+input {
+    width: 70mm;
+    font-size:15px;
+}
+
+textarea {
+    width:200mm;
+    font-size: 15px;
+}
+
+select {
+    width:50mm;
+    font-size: 15px;
+
+}
+
+
+
+.input {
+
+    text-align: center;
+     display: inline-block;
+    background-color: #FFFFFF;
+    color: white;
+    padding: 12px 20px;
+    margin: 24px 12px;
+    border-radius: 4px;
+    font-size: 15px;}
+
+
+
+
+<!-- Donor Submit -->
+
+table,th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+
+
+<!-- User Profile -->
+
+
+
+.border{
+  border-bottom:1px solid #F1F1F1;
+  margin-bottom:30px;
+
+}
+
+ #demo {
+ display: none;
+
+ }
+
+.image-section{
+  padding: 0px;
+}
+.image-section img{
+  width:100%;
+  height:250px;
+  position: relative;
+}
+.user-image{
+  position: absolute;
+  margin-top:-50px;
+}
+.user-left-part{
+  margin: 0px;
+
+}
+.user-image img{
+  width:100px;
+  height:100px;
+}
+.user-profil-part{
+  padding-bottom:50px;
+  background-color:#FAFAFA;
+}
+.follow{
+  width:60%;
+  margin-top:70px;
+  font-size:12px;
+  border:1px solid #DDDDDD;
+  background-color: #fff;
+  font-weight: 600;
+}
+.user-detail-row{
+  margin:0px;
+}
+.user-detail-section2 p{
+  font-size:12px;
+  padding: 0px;
+  margin: 0px;
+}
+.user-detail-section2{
+  margin-top:10px;
+}
+.user-detail-section2 span{
+  color:#7CBBC3;
+  font-size: 12px;
+}
+.user-detail-section2 small{
+  font-size:12px;
+  color:#D3A86A;
+}
+.profile-right-section{
+  padding: 20px 0px 10px 15px;
+  background-color: #FFFFFF;
+}
+.profile-right-section-row{
+  margin: 0px;
+}
+.profile-header-section1 h1{
+  font-size: 25px;
+  margin: 0px;
+}
+.profile-header-section1 p{
+  color:#878787;
+}
+.req-btn{
+  height:30px;
+  font-size:12px;
+}
+.profile-tag{
+  padding: 10px;
+  border:1px solid #F6F6F6;
+}
+.profile-tag p{
+  font-size: 12px;
+  color:#ADADAD;
+}
+.profile-tag i{
+  color:#ADADAD;
+  font-size: 20px;
+}
+.image-right-part{
+  background-color: #FCFCFC;
+  margin: 0px;
+  padding: 5px;
+}
+.img-main-rightPart{
+  background-color: #FCFCFC;
+}
+.image-right-detail{
+  padding: 0px;
+}
+.image-right-detail p{
+  font-size: 12px;
+}
+.image-right-detail a:hover{
+  text-decoration: none;
+}
+.image-right img{
+  width: 100%;
+}
+.image-right-detail-section2{
+  margin: 0px;
+}
+.image-right-detail-section2 p{
+  color:#38ACDF;
+  margin:0px;
+}
+.image-right-detail-section2 span{
+  color:#7F7F7F;
+}
+
